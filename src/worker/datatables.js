@@ -3,8 +3,6 @@ import { DataMatrixReader, BinaryBitmap, RGBLuminanceSource, HybridBinarizer, No
 self.addEventListener('message', function (event) {
   const imageData = event.data
 
-  const result;
-  
   const luminanceSource = new RGBLuminanceSource(
     toGrayscaleBuffer(imageData.data, imageData.width, imageData.height), //imageData.data,
     imageData.width,
