@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@zxing/library": "zxing-js/library",
     "babel-core": "^6.0.0",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.0.0",
@@ -67,6 +68,7 @@
     "lint-staged": "^8.1.4",
     "prettier": "1.16.4",
     "semantic-release": "^15.9.9",
+    "vue": "^2.5",
     "vue-loader": "^10.0.0",
     "vue-template-compiler": "^2.1.6",
     "webpack": "^3.0.0",
